@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="@dimen/activity_vertical_margin"
+              android:layout_marginBottom="@dimen/activity_vertical_margin"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_my_nanodegree_apps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/my_nanodegree_apps"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        style="@style/AppWidget.Button"
+        android:id="@+id/btn_popular_movies"
+        android:text="@string/popular_movies"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        style="@style/AppWidget.Button"
+        android:id="@+id/btn_scores_app"
+        android:text="@string/scores_app"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        style="@style/AppWidget.Button"
+        android:id="@+id/btn_library_app"
+        android:text="@string/library_app"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        style="@style/AppWidget.Button"
+        android:id="@+id/btn_build_it_bigger"
+        android:text="@string/build_it_bigger"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        style="@style/AppWidget.Button"
+        android:id="@+id/btn_xyz_reader"
+        android:text="@string/xyz_reader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        style="@style/AppWidget.Button.Red"
+        android:id="@+id/btn_capstone"
+        android:text="@string/capstone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
